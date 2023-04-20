@@ -33,7 +33,7 @@ final class NProcFinder extends ProcOpenBasedFinder
      * @param bool $all If disabled will give the number of cores available for the current process only.
      */
     public function __construct(
-        bool $all = true,
+        bool $all = false,
         ?ProcessExecutor $executor = null
     ) {
         parent::__construct($executor);
